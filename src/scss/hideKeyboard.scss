@@ -1,0 +1,14 @@
+.trainer {
+	&__keyboard {
+		display: none;
+		.line {
+			.fill{
+				margin-left: auto;
+			}
+			.theme{
+				text-align: right;
+				margin-right: auto;
+			}
+		}
+	}
+}

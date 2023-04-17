@@ -1,0 +1,44 @@
+
+//------------------TRAINER.HTML------------------
+.dark{
+	body{
+		background-color: #141D26;
+		color: white;
+	}
+	.header {
+		&__content {
+			.nav{
+				a{
+					color: white;
+				}
+			}
+		}
+	}
+	.trainer {
+		&__input {
+			.input{
+				border-bottom: 1px dotted #fff;
+			}
+		}
+		&__keyboard {
+			.line {
+				div{
+					background: #000;
+				}
+			}
+		}
+	}
+	//------------------BUTTON------------------
+	a.animated-button:link, a.animated-button:visited {
+		color: #fff;
+	}	
+	//------------------INDEX.HTML------------------
+	.welcome {
+		.theme{
+			span{
+				margin-top: 5px;
+				color: #fff;
+			}
+		}
+	}
+}
