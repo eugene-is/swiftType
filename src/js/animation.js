@@ -42,7 +42,6 @@ typeText();
 const animItems = document.querySelectorAll('.anim-items');
 
 if(animItems.length > 0){
-	console.log(animItems.length);
 	window.addEventListener('scroll', animOnScroll);
 	function animOnScroll(){
 		for(let i = 0; i < animItems.length; i++){

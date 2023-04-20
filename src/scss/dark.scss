@@ -29,9 +29,10 @@
 		}
 	}
 	//------------------BUTTON------------------
-	a.animated-button:link, a.animated-button:visited {
+	.animated-button:link, .animated-button:visited {
 		color: #fff;
-	}	
+	}
+	
 	//------------------INDEX.HTML------------------
 	.welcome {
 		.theme{
@@ -39,6 +40,23 @@
 				margin-top: 5px;
 				color: #fff;
 			}
+		}
+	}
+		//------------------POPUP------------------
+	.popup {
+		color: white;
+		&__content {
+			.box {
+				background: #141D26;
+				input[type="text"]:focus,
+				input[type="password"]:focus,
+				textarea[type="text"]:focus{
+					border-color: white;
+				}
+			}
+		}
+		button{
+			color: white;
 		}
 	}
 }

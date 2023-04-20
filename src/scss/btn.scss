@@ -1,0 +1,62 @@
+.animated-button {
+	position: relative;
+	display: block;
+	padding: 14px 15px;
+	color: #000;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 8px;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	transition: all 1s ease;
+	border: 2px solid #C7D0D4;
+}
+
+.popup-btn {
+	margin-top: 25px;
+	width: 150px;
+}
+
+.animated-button:link:after, .animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	transition: all 0.75s ease 0s;
+}
+.popup-btn:link:hover, .popup-btn:visited:hover {
+	z-index: 1;
+}
+
+.animated-button:after {
+	background: #C7D0D4;
+	opacity: .5;
+}
+
+.animated-button:hover:after {
+	opacity: 1;
+	height: 600%;
+}
+
+.animated-button.one:after {
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+.animated-button.two:after {
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+
+.animated-button.three:after {
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.animated-button.four:after {
+	transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
