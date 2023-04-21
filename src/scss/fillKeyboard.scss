@@ -1,18 +1,25 @@
 .fill{
-	color: black;
-	.purple-key{
-		background-color: #DF79C9 !important;
-	}
-	.blue-key{
-		background-color: #3DB1AA !important;
-	}
-	.green-key{
-		background-color: #34C924 !important;
-	}
-	.orange-key{
-		background-color: #EE933F !important;
-	}
-	.yellow-key{
-		background-color: #E6F542 !important;
+	&.trainer {
+		&__keyboard {
+			.line {
+				color: black;
+
+				.purple-key{
+					background-color: #DF79C9;
+				}
+				.blue-key{
+					background-color: #3DB1AA;
+				}
+				.green-key{
+					background-color: #34C924;
+				}
+				.orange-key{
+					background-color: #EE933F;
+				}
+				.yellow-key{
+					background-color: #E6F542;
+				}
+			}
+		}
 	}
 }

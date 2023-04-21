@@ -420,23 +420,23 @@ body {
   color: white;
 }
 
-.fill {
+.fill.trainer__keyboard .line {
   color: black;
 }
-.fill .purple-key {
-  background-color: #DF79C9 !important;
+.fill.trainer__keyboard .line .purple-key {
+  background-color: #DF79C9;
 }
-.fill .blue-key {
-  background-color: #3DB1AA !important;
+.fill.trainer__keyboard .line .blue-key {
+  background-color: #3DB1AA;
 }
-.fill .green-key {
-  background-color: #34C924 !important;
+.fill.trainer__keyboard .line .green-key {
+  background-color: #34C924;
 }
-.fill .orange-key {
-  background-color: #EE933F !important;
+.fill.trainer__keyboard .line .orange-key {
+  background-color: #EE933F;
 }
-.fill .yellow-key {
-  background-color: #E6F542 !important;
+.fill.trainer__keyboard .line .yellow-key {
+  background-color: #E6F542;
 }
 
 .text {
